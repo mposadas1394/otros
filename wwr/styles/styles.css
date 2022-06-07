@@ -56,30 +56,29 @@ padding-top: 13px;}
 width: 100%;} 
 
 .card-img, .mountains {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 .home-grid{
 display: grid;
-grid-template-columns:150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 justify-content: center;
-align-content: center;
-justify-items: center;
-justify-items:center;}
-.rivers-card{grid-column:5/6 ;
+justify-items: center;}
+.rivers-card{grid-column:2/4 ;
     grid-row:2/3;
     justify-self: center;
     align-self: center;
     }
 
-.camping-card{grid-column: 7/8;
+.camping-card{
+    grid-column: 5/7;
     grid-row:2/3;
     justify-self: center;
     align-self: center;;
     }
 
 .rapids-card{
-    grid-column:3/4;
+    grid-column:8/10;
     grid-row:2/3;
     justify-self: center;
     align-self: center;
@@ -110,14 +109,16 @@ margin-top: 10px;}
     height: 725px;}
 
     header{background-color: grey;}
-main img{width:100px;
-height:100px;}
+main img{width:100%;
+height:100%;}
 
 nav a:hover{background-color: rgb(23, 23, 104);
 color: rgb(222, 232, 235);}
 
-.book, .join{background-color: rgb(130, 198, 221);
-    text-decoration: none;
+.book, .join{
+background-color: rgb(130, 198, 221);
+border-radius:5px;
+text-decoration: none;
 color: black;
 font-size: 18px;
 padding: 15px 30px;
@@ -172,7 +173,9 @@ footer .social img{padding-top: 15px;}
 
 .logo{width: 80px;}
 .rivers-card, .camping-card, .rapids-car{margin: 200px 0;}
-.card-image{border: 3px solid rgb(4, 105, 136)}
+.card-image{
+    
+border: 3px solid rgb(4, 105, 136);}
 main section img{box-sizing: border-box;}
 .mountains{width: 600px;
     height: 400px;
