@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Water+Brush&display=swap');
 
-body{background-color:rgb(191, 243, 132) ;
-    font-family: "Water Brush";
+body{
+background-color:rgb(191, 243, 132) ;
+font-family: "Water Brush";
 font-size: 20px;
 margin: 0;
 padding: 0;}
+
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -91,8 +93,7 @@ justify-items: center;}
     grid-row:5/8;}
 
 .msg{grid-column:6/10;
-    grid-row:6/7;}from column lines 6 to 10 and row lines 6 to 7 
-
+    grid-row:6/7;}
 h1{ text-align: center;}
 h2{margin: 0;} 
 
@@ -105,7 +106,7 @@ main section{ text-align: center;}
 .home-title{font-family:Inconsolata, Helvetica, sans-serif;
 font-size:2em ;
 margin-top: 10px;}
-
+#hero-img{width: 100%;}
 #background {
     height: 725px;}
 
